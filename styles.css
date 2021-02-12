@@ -1,0 +1,56 @@
+.descriptionWords {
+    font-size: 2.4rem;
+    font-family: Matter,Helvetica,Arial,sans-serif;
+
+}
+
+.description {
+    min-height: 100%;
+    margin-top: 7%;
+    margin-left: 5%;
+    width: 50%;
+}
+
+.change {
+    color: red;
+}
+
+.clipart {
+    width: 50%;
+    padding-right: 30%;
+    margin-top: -3%;
+}
+
+.wallpaper {
+    width: 100%;
+}
+
+.shoeDisplay {
+    background-color: black;
+    min-height: 100%;
+    min-width: 100vh;
+    padding-bottom: 5rem;
+}
+
+.shoeImage {
+    width: 40%;
+    margin-left: 55%;
+}
+
+.shoeTitle {
+    font-size: 550%;
+    margin-bottom: 1%;
+    margin-top: -12%;
+    margin-left: 5%;
+    color: white;
+    font-weight: bold;
+    font-family: Matter,Helvetica,Arial,sans-serif;
+}
+
+.otherTitles {
+        margin: 0.5%;
+        margin-left: 5rem;
+        font-size: 220%;
+        color: white;
+        font-weight: bold;
+}
