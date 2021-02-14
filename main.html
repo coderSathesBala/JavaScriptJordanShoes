@@ -1,11 +1,18 @@
 <head><link rel="stylesheet" href="styles.css"></head>
+<script src="script.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>AOS.init();</script>
+
+
+
 <div id='intro'>
     <img id='intro' src="images/Wallpaper1.jpg">
 </div>
 
 <div>
-    <div class="shoeDisplay">
-        <img class='shoeImage' src="images/AirJordan1.jpg">
+    <div class="shoeDisplay" onscroll="appear()">
+        <img class='shoeImage' id='test' src="images/AirJordan1.jpg">
         <h1 class="shoeTitle">Air Jordan I</h1>
         <h2 class="otherTitles"> Designer: Peter Moore </h2>
         <h2 class="otherTitles"> Released: 1985 </h2>
