@@ -1,3 +1,8 @@
+#intro {
+    height: 100vh;
+    width: 100%;
+}
+
 .descriptionWords {
     font-size: 2.4rem;
     font-family: Matter,Helvetica,Arial,sans-serif;
