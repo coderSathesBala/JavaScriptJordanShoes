@@ -1,11 +1,21 @@
-body{overflow-x: hidden}
-.aos-init:not(.aos-animate):after {position: fixed;}
+body {
+    overflow-x: hidden;
+    margin:0px;
+}
 
 #intro {
+    background-image: url("images/Wallpaper1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
     height: 100vh;
     width: 100%;
     color: white;
 }
+
+.aos-init:not(.aos-animate):after {position: fixed;}
+
 
 .introTitle {
     font-size: 4rem;
