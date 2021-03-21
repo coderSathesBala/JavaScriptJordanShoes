@@ -90,7 +90,7 @@
         font-weight: bold;
 }
 
-@media screen and (min-width: 800px) {
+@media only screen and (max-width: 800px) {
 
     #intro {
         width: 140%;
