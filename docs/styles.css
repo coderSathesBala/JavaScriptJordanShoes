@@ -1,6 +1,6 @@
-body {
+* {
     overflow-x: hidden;
-    margin:0px;
+    margin:0;
 }
 
 #intro {
@@ -20,19 +20,20 @@ body {
 .introTitle {
     font-size: 4rem;
     position: absolute;
-    top: 30%;
-    left: 50px;
+    top: 10rem;
+    left: 5rem;
 }
 
 .descriptionWords {
+    margin-left: 3rem;
     font-size: 2.4rem;
     font-family: Matter,Helvetica,Arial,sans-serif;
 }
 
 .description {
     min-height: 100%;
-    margin-top: 7%;
-    margin-left: 5%;
+    margin-top: 7rem;
+    margin-left: 2rem;
     width: 50%;
 }
 
@@ -50,8 +51,8 @@ body {
 
 .clipart {
     width: 50%;
-    padding-right: 30%;
-    margin-top: -3%;
+    margin-top: -5rem;
+    margin-left: 2rem;
 }
 
 .wallpaper {
@@ -66,24 +67,91 @@ body {
 }
 
 .shoeImage {
-    width: 40%;
-    margin-left: 55%;
+    width: 30rem;
+    margin-left: 45rem;
+    margin-top: 4rem;
 }
 
 .shoeTitle {
-    font-size: 550%;
-    margin-bottom: 1%;
-    margin-top: -12%;
-    margin-left: 5%;
+    font-size: 5rem;
+    margin-bottom: 0.5rem;
+    margin-top: -12rem;
+    margin-left: 4.5rem;
     color: white;
     font-weight: bold;
     font-family: Matter,Helvetica,Arial,sans-serif;
 }
 
 .otherTitles {
-        margin: 0.5%;
+        margin: 1rem;
         margin-left: 5rem;
-        font-size: 220%;
+        font-size: 2rem;
         color: white;
         font-weight: bold;
 }
+
+@media screen and (min-width: 800px) {
+
+    #intro {
+        width: 140%;
+    }    
+    
+    .introTitle {
+        font-size: 10rem;
+        top: 45rem;
+        left: 5rem;
+    }
+    
+    .descriptionWords {
+        margin-left: 3rem;
+        font-size: 3.5rem;
+    }
+    
+    .description {
+        min-height: 100%;
+        margin-top: 20rem;
+        margin-left: 2rem;
+        width: 75%;
+    }
+    
+    .clipart {
+        width: 95%;
+        margin-top: 0rem;
+        margin-left: 2rem;
+        margin-bottom: 5rem;
+    }
+    
+    .wallpaper {
+        width: 100%;
+    }
+    
+    .shoeDisplay {
+        background-color: black;
+        min-height: 100%;
+        min-width: 100vh;
+        padding-bottom: 5rem;
+    }
+    
+    .shoeImage {
+        width: 55rem;
+        margin-left: 5rem;
+        margin-top: 25rem;
+    }
+    
+    .shoeTitle {
+        width: 50rem;
+        font-size: 5rem;
+        margin-bottom: 0.5rem;
+        margin-top: -1rem;
+        text-align: center;
+    }
+    
+    .otherTitles {
+        width: 50rem;
+        text-align: center;
+        margin: 1rem;
+        margin-left: 4.5rem;
+        font-size: 2rem;
+    }
+
+  }
