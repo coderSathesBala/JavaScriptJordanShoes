@@ -1,3 +1,4 @@
+/* DESKTOP CSS  */
 * {
     margin: 0;
 }
@@ -89,6 +90,8 @@
         font-weight: bold;
 }
 
+/* MOBILE PHONE CSS */
+
 @media screen and (max-device-width: 800px) {
 
     * {
@@ -159,3 +162,23 @@
     }
 
   }
+
+  /* BIGGER MONITOR CSS */
+@media screen and (min-width:1600px) and (max-width:1848px) {
+  
+    .shoeImage {
+        width: 45rem;
+        margin-left: 60rem;
+        margin-top: 5rem;
+    }
+
+}
+
+@media screen and (min-width:1300px) and (max-width:1600px) {
+
+    .shoeImage {
+        width: 40rem;
+        margin-left: 49rem;
+        margin-top: 5rem;
+    }
+}
